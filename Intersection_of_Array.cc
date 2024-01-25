@@ -55,7 +55,7 @@ vector<int> intersection(vector<int> &nums1, vector<int> &nums2)
 int main()
 {
     vector<int> ans;
-    vector<int> a = {4, 9, 5}, b = {9, 4, 9, 8, 4};
+    vector<int> a = {4, 9, 9, 5}, b = {9, 4, 9, 8, 4};
     ans = intersection(a, b);
     cout << endl;
     for (int i = 0; i < ans.size(); i++)
